@@ -8,3 +8,4 @@
 <img width="960" alt="5" src="https://github.com/mirmujeeb9/i200611_A1_MLOPS/assets/124875755/70f6dba9-0dbe-4473-835a-b3a12957294e">
 
 
+<img width="960" alt="image" src="https://github.com/mirmujeeb9/i200611_A1_MLOPS/assets/124875755/32130848-4a52-4466-8091-90b4e31304f3">
