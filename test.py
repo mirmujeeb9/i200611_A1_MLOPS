@@ -1,5 +1,7 @@
 import unittest
 from train_model import load_iris, train_test_split, accuracy_score, joblib, LogisticRegression
+import os  # Import the os module
+
 
 class TestTrainModel(unittest.TestCase):
     def test_load_iris(self):
@@ -28,6 +30,7 @@ class TestTrainModel(unittest.TestCase):
         model.fit(X_train, y_train)
         joblib.dump(model, 'test_iris_model.pkl')
         self.assertTrue(os.path.exists('test_iris_model.pkl'))
+
 
 if __name__ == '__main__':
     unittest.main()
