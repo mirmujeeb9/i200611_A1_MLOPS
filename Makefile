@@ -7,4 +7,5 @@ build:
 run:
 	docker run -p 5000:5000 iris
 
-
+install:
+	pip install requirements.txt
